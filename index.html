@@ -1,69 +1,109 @@
 <!DOCTYPE html>
 <html lang="sv">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Swedish Technology</title>
-  <link rel="stylesheet" href="styles.css" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Uganda Technology</title>
+<link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <h1 class="logo">SWEDISH TECHNOLOGY</h1>
-    <nav>
-      <ul class="menu">
-        <li><a href="#">Hem</a></li>
-        <li><a href="#">Om oss</a></li>
-        <li><a href="#">Kontakt</a></li>
-      </ul>
-    </nav>
-  </header>
+<header>
+  <h1 class="logo">Uganda Technology</h1>
+  <nav>
+    <ul class="menu">
+      <li><a href="#">Hem</a></li>
+      <li><a href="#">Om oss</a></li>
+      <li><a href="#">Kontakt</a></li>
+    </ul>
+  </nav>
+</header>
 
-  <main>
-    <section class="hero">
-      <h2>Välkommen till Swedish Technology</h2>
-      <button onclick="handleClick()">Läs mer</button>
-    </section>
-  </main>
+<main>
+  <section class="hero">
+    <h2 class="animated-hero">Välkommen till Uganda Technology</h2>
+    <button class="fancy-btn" onclick="handleClick()">Läs mer</button>
+  </section>
 
-  <footer>
-    <p>&copy; 2025 Swedish Technology. Alla rättigheter förbehållna.</p>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-</html>
-
-<section class="product-table">
+  <section class="product-table">
     <h3>Våra produkter</h3>
     <table>
       <thead>
         <tr>
           <th>Produktnamn</th>
           <th>Pris</th>
+          <th>Beskrivning</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <td>Smart Sensor</td>
           <td>499 kr</td>
+          <td>Avancerad sensor för hem och industri.</td>
         </tr>
         <tr>
           <td>IoT Gateway</td>
           <td>1 299 kr</td>
+          <td>Central enhet för att koppla upp alla IoT-enheter.</td>
         </tr>
         <tr>
           <td>Industrikamera</td>
           <td>2 499 kr</td>
+          <td>Högupplöst kamera för övervakning och analys.</td>
         </tr>
         <tr>
           <td>Miljömätare</td>
           <td>899 kr</td>
+          <td>Precisionmätare för temperatur, luft och fuktighet.</td>
         </tr>
         <tr>
           <td>AI-modul</td>
           <td>1 599 kr</td>
+          <td>Modul som tillför AI-funktioner till dina enheter.</td>
         </tr>
       </tbody>
     </table>
   </section>
+
+  <section class="product-cards">
+    <h3>
+      Produktkort
+    </h3>
+    <div class="cards-container">
+      <div class="card">
+        <h4>Smart Sensor</h4>
+        <p>499 kr</p>
+        <p>Avancerad sensor för hem och industri.</p>
+      </div>
+      <div class="card">
+        <h4>IoT Gateway</h4>
+        <p>1 299 kr</p>
+        <p>Central enhet för att koppla upp alla IoT-enheter.</p>
+      </div>
+      <div class="card">
+        <h4>Industrikamera</h4>
+        <p>2 499 kr</p>
+        <p>Högupplöst kamera för övervakning och analys.</p>
+      </div>
+      <div class="card">
+        <h4>Miljömätare</h4>
+        <p>899 kr</p>
+        <p>Precisionmätare för temperatur, luft och fuktighet.</p>
+      </div>
+      <div class="card">
+        <h4>AI-modul</h4>
+        <p>1 599 kr</p>
+        <p>Modul som tillför AI-funktioner till dina enheter.</p>
+      </div>
+    </div>
+  </section>
+
   <button id="theme-toggle">Byt tema</button>
+</main>
+
+<footer>
+  <p>&copy; 2025 Uganda Technology. Alla rättigheter förbehållna.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
